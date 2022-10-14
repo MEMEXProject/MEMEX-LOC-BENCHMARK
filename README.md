@@ -14,22 +14,9 @@
     <li>
       <a href="#about-the-project">About The Project</a>
     </li>
-     <li>
+    <li>
       <a href="#about-the-project">About the Multicamera Acquisition System</a>
     </li>
-
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation-example-on-windows-using-conda">Installation example on Windows using Conda</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#geojson-files-generation">geojson file generation</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
