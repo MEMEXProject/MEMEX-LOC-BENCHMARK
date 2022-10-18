@@ -36,9 +36,9 @@ This project is a result of performing Visual-SLAM and GPS fusion for correct th
 
 ## List of Sequences
 ### Lisbon
-| Sequence name | Sequence type | Number of images | GPS trajectory plot | Mapillary Sample online image
+| Sequence name | Sequence type | Number of images | GPS trajectory plot | Mapillary Sample online image (Camera T1)
 | --- | --- | --- | --- | --- |
-| lis01 | outdoor | 40000 | |https://www.mapillary.com/app/?pKey=ZN7jZWWLe0vi-WBVemVvwg
+| lis01 | outdoor | 40000 | |https://www.mapillary.com/app/?pKey=WLe0vi-WBVemVvwg
 
 ## Directory Structure
 
