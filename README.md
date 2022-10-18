@@ -1,4 +1,4 @@
-# MEMEX-Benchmarks
+# MEMEX-Benchmarks downloader
 
 <br />
 <p align="center">
