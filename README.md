@@ -1,6 +1,7 @@
+# MEMEX-Benchmarks
+
 <br />
 <p align="center">
-# MEMEX-Benchmarks
   <p align="center">
     This tool allows to automatically download the sequence of images of a multi-camera system from the Mapillary server using a json file. 
   </p>
