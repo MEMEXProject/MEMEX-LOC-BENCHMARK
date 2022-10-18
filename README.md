@@ -35,7 +35,7 @@
 This project is a result of performing Visual-SLAM and GPS fusion for correct the GPS location of images in [Mapillary](https://www.mapillary.com) server. 
 
 ## List of Sequences
-| Lisbon |
+### Lisbon
 | Sequence name | Sequence type | Number of images | GPS trajectory plot | Mapillary Sample online image
 | --- | --- | --- | --- | --- |
 | lis01 | outdoor | 40000 | |https://www.mapillary.com/app/?pKey=ZN7jZWWLe0vi-WBVemVvwg
