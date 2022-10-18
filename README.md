@@ -36,9 +36,20 @@ This project is a result of performing Visual-SLAM and GPS fusion for correct th
 
 ## List of Sequences
 ### Lisbon
-| Sequence name | Sequence type | Number of images | GPS trajectory plot | Mapillary Sample online image (Camera T1)
+| Sequence name | Sequence type | Number of images | GPS trajectory file | Mapillary Sample online image (Camera T1)
 | --- | --- | --- | --- | --- |
 | lis01 | outdoor | 40000 | |https://www.mapillary.com/app/?pKey=758173992140720
+
+### Paris
+| Sequence name | Sequence type | Number of images | GPS trajectory file | Mapillary Sample online image (Camera T1)
+| --- | --- | --- | --- | --- |
+| par01 | outdoor | 40000 | |https://www.mapillary.com/app/?pKey=758173992140720
+
+### Barcelona
+| Sequence name | Sequence type | Number of images | GPS trajectory file | Mapillary Sample online image (Camera T1)
+| --- | --- | --- | --- | --- |
+| bcn01 | outdoor | 40000 | |https://www.mapillary.com/app/?pKey=758173992140720
+
 
 ## Directory Structure
 
