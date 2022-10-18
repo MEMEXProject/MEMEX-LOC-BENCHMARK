@@ -33,6 +33,7 @@
 ## About The Project
 
 This project is a result of performing Visual-SLAM and GPS fusion for correct the GPS location of images in [Mapillary](https://www.mapillary.com) server. 
+## Directory Structure
 
 ## List of Sequences
 ### Lisbon
@@ -43,15 +44,20 @@ This project is a result of performing Visual-SLAM and GPS fusion for correct th
 ### Paris
 | Sequence name | Sequence type | Number of images | GPS trajectory file | Mapillary Sample online image (Camera T1)
 | --- | --- | --- | --- | --- |
-| par01 | outdoor | 40000 | |https://www.mapillary.com/app/?pKey=758173992140720
+| par01 | outdoor | 40000 | |https://www.mapillary.com/app/?pKey=407583920850584
 
 ### Barcelona
 | Sequence name | Sequence type | Number of images | GPS trajectory file | Mapillary Sample online image (Camera T1)
 | --- | --- | --- | --- | --- |
-| bcn01 | outdoor | 40000 | |https://www.mapillary.com/app/?pKey=758173992140720
+| bcn01 | outdoor | 40000 | |https://www.mapillary.com/app/?pKey=366250235589944
+
+### CNRS-I3S (France)
+| Sequence name | Sequence type | Number of images | GPS trajectory file | Mapillary Sample online image (Camera T1)
+| --- | --- | --- | --- | --- |
+| i3s01 | outdoor/indoor | 40000 | |https://www.mapillary.com/app/?pKey=246105260801609
 
 
-## Directory Structure
+
 
 ## Acknowledgements
 
