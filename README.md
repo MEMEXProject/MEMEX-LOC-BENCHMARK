@@ -1,11 +1,7 @@
-<br />
-<p align="center">
-  <h3 align="center">MEMEX-Benchmarks</h3>
+# MEMEX-Benchmarks
 
-  <p align="center">
-    This tool allows to automatically download geotagged stereo sequences from the Mapillary server using a json file. 
-  </p>
-</p>
+    This tool allows to automatically download the sequence of geotagged images of a multi-camera system from the Mapillary server using a json file. The main script allows to download anonymized full resolution images for localization purposes. Other tool scripts are also provided for customization of the JSON files.
+
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -25,3 +21,4 @@
 
 This project is a result of performing Visual-SLAM and GPS fusion for correct the GPS location of images in [Mapillary](https://www.mapillary.com) server. 
 
+## List of sequences
