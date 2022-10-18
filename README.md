@@ -1,7 +1,10 @@
+<br />
+<p align="center">
 # MEMEX-Benchmarks
-
-    This tool allows to automatically download the sequence of geotagged images of a multi-camera system from the Mapillary server using a json file. The main script allows to download anonymized full resolution images for localization purposes. Other tool scripts are also provided for customization of the JSON files.
-
+  <p align="center">
+    This tool allows to automatically download the sequence of images of a multi-camera system from the Mapillary server using a json file. 
+  </p>
+</p>
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
