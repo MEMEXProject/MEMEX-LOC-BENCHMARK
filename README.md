@@ -17,6 +17,15 @@
     <li>
       <a href="#about-the-project">About the Multicamera Acquisition System</a>
     </li>
+    <li>
+      <a href="#directory-structure">Directory structure</a>
+    </li>
+    <li>
+      <a href="#datasets-list">Datasets List</a>
+    </li>  
+    <li>
+      <a href="#acknowledgments">Acknowledgements</a>
+    </li>   
   </ol>
 </details>
 
@@ -25,4 +34,13 @@
 
 This project is a result of performing Visual-SLAM and GPS fusion for correct the GPS location of images in [Mapillary](https://www.mapillary.com) server. 
 
-## List of sequences
+## List of Sequences
+| Lisbon |
+| Sequence name | Sequence type | Number of images | GPS trajectory plot | Mapillary Sample online image
+| --- | --- | --- | --- | --- |
+| lis01 | outdoor | 40000 | |https://www.mapillary.com/app/?pKey=ZN7jZWWLe0vi-WBVemVvwg
+
+## Directory Structure
+
+## Acknowledgements
+
