@@ -15,17 +15,17 @@
       <a href="#installation">Installation and use</a>
     </li>
     <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
-    <li>
-      <a href="#about-the-project">About the Multicamera Acquisition System</a>
-    </li>
-    <li>
       <a href="#directory-structure">Directory structure</a>
     </li>
     <li>
       <a href="#datasets-list">Datasets List</a>
-    </li>  
+    </li> 
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#about-the-project">About the Multicamera Acquisition System</a>
+    </li> 
     <li>
       <a href="#acknowledgments">Acknowledgements</a>
     </li>   
@@ -52,33 +52,33 @@ python download_mapillary_sequence.py -i <sequence_id> -r <resolution> -o <outpu
 
 #### Generate JSON files
 
+
+## List of Sequences
+### Lisbon
+| Sequence ID | Sequence type | Number of images | GPS path | Mapillary Sample online image (Camera T1)
+| --- | --- | --- | --- | --- |
+| lis01 | outdoor | 40000 | | https://www.mapillary.com/app/?pKey=758173992140720
+
+### Paris
+| Sequence ID | Sequence type | Number of images | GPS path | Mapillary Sample online image (Camera T1)
+| --- | --- | --- | --- | --- |
+| par01 | outdoor | 40000 | |https://www.mapillary.com/app/?pKey=407583920850584
+
+### Barcelona
+| Sequence ID | Sequence type | Number of images | GPS path | Mapillary Sample online image (Camera T1)
+| --- | --- | --- | --- | --- |
+| bcn01 | outdoor | 40000 | |https://www.mapillary.com/app/?pKey=366250235589944
+
+### CNRS-I3S (France)
+| Sequence ID | Sequence type | Number of images | GPS path | Mapillary Sample online image (Camera T1)
+| --- | --- | --- | --- | --- |
+| i3s01 | outdoor/indoor | 40000 | |https://www.mapillary.com/app/?pKey=246105260801609
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
 This project is a result of performing Visual-SLAM and GPS fusion for correct the GPS location of images in [Mapillary](https://www.mapillary.com) server. 
 ## Directory Structure
-
-## List of Sequences
-### Lisbon
-| Sequence name | Sequence type | Number of images | GPS path | Mapillary Sample online image (Camera T1)
-| --- | --- | --- | --- | --- |
-| lis01 | outdoor | 40000 | | https://www.mapillary.com/app/?pKey=758173992140720
-
-### Paris
-| Sequence name | Sequence type | Number of images | GPS path | Mapillary Sample online image (Camera T1)
-| --- | --- | --- | --- | --- |
-| par01 | outdoor | 40000 | |https://www.mapillary.com/app/?pKey=407583920850584
-
-### Barcelona
-| Sequence name | Sequence type | Number of images | GPS path | Mapillary Sample online image (Camera T1)
-| --- | --- | --- | --- | --- |
-| bcn01 | outdoor | 40000 | |https://www.mapillary.com/app/?pKey=366250235589944
-
-### CNRS-I3S (France)
-| Sequence name | Sequence type | Number of images | GPS path | Mapillary Sample online image (Camera T1)
-| --- | --- | --- | --- | --- |
-| i3s01 | outdoor/indoor | 40000 | |https://www.mapillary.com/app/?pKey=246105260801609
-
 
 
 
