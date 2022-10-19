@@ -43,8 +43,14 @@ cd memex-benchmarking
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
-How to use:
+### How to use:
+Anonymized imagery can be downloaded from Mapillary server using the official Mapillary-SDK. This project is an extension for downloading original imagery (full resolution (4000x3000)). Images were syncronized and geotagged offline using a SLAM-GPS fusion approach.  
+#### Download sequences from Json files
+```bash
+python download_mapillary_sequence.py -i <sequence_id> -r <resolution> -o <output_path>
+```
 
+#### Generate JSON files
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
