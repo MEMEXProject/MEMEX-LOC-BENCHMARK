@@ -52,6 +52,8 @@ python download_mapillary_sequence.py -i <sequence_id> -r <resolution> -o <outpu
 
 #### Generate JSON files
 
+## Directory Structure
+
 
 ## List of Sequences
 ### Lisbon
@@ -78,7 +80,6 @@ python download_mapillary_sequence.py -i <sequence_id> -r <resolution> -o <outpu
 ## About The Project
 
 This project is a result of performing Visual-SLAM and GPS fusion for correct the GPS location of images in [Mapillary](https://www.mapillary.com) server. 
-## Directory Structure
 
 
 
