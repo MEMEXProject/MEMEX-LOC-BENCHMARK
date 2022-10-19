@@ -12,6 +12,9 @@
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
     <li>
+      <a href="#installation">Installation and use</a>
+    </li>
+    <li>
       <a href="#about-the-project">About The Project</a>
     </li>
     <li>
@@ -29,6 +32,20 @@
   </ol>
 </details>
 
+## Installation And Use
+To install the downloader script just clone this repository, create a new conda python3.8 environment and install the dependencies.  
+
+```bash
+conda create --name py38
+conda activate py38
+git clone git@gitlab.com:feriret/memex-benchmarking.git
+cd memex-benchmarking
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+How to use:
+
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -37,22 +54,22 @@ This project is a result of performing Visual-SLAM and GPS fusion for correct th
 
 ## List of Sequences
 ### Lisbon
-| Sequence name | Sequence type | Number of images | GPS trajectory file | Mapillary Sample online image (Camera T1)
+| Sequence name | Sequence type | Number of images | GPS path | Mapillary Sample online image (Camera T1)
 | --- | --- | --- | --- | --- |
 | lis01 | outdoor | 40000 | | https://www.mapillary.com/app/?pKey=758173992140720
 
 ### Paris
-| Sequence name | Sequence type | Number of images | GPS trajectory file | Mapillary Sample online image (Camera T1)
+| Sequence name | Sequence type | Number of images | GPS path | Mapillary Sample online image (Camera T1)
 | --- | --- | --- | --- | --- |
 | par01 | outdoor | 40000 | |https://www.mapillary.com/app/?pKey=407583920850584
 
 ### Barcelona
-| Sequence name | Sequence type | Number of images | GPS trajectory file | Mapillary Sample online image (Camera T1)
+| Sequence name | Sequence type | Number of images | GPS path | Mapillary Sample online image (Camera T1)
 | --- | --- | --- | --- | --- |
 | bcn01 | outdoor | 40000 | |https://www.mapillary.com/app/?pKey=366250235589944
 
 ### CNRS-I3S (France)
-| Sequence name | Sequence type | Number of images | GPS trajectory file | Mapillary Sample online image (Camera T1)
+| Sequence name | Sequence type | Number of images | GPS path | Mapillary Sample online image (Camera T1)
 | --- | --- | --- | --- | --- |
 | i3s01 | outdoor/indoor | 40000 | |https://www.mapillary.com/app/?pKey=246105260801609
 
