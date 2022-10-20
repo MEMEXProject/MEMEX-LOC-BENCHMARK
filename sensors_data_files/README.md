@@ -28,6 +28,7 @@ Timestamp[UNIX time]	latitude[deg]	longitude[deg]	altitude[deg]
 ### Photometric Information
 ```
 Timestamp[nanosec]	Exposure_time[nanosec]	  ISO     Lens_aperture   Focal   length  Focus_distance
+```
 
 ### Image Files
 ```
