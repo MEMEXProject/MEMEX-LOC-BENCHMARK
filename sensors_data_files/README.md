@@ -16,27 +16,27 @@ Where X can be {B1, B2, B3, B4, T1, T2, T3, T4} for each sequence.
 ### Inertial Measurements Format
 
 ```
-Timestamp[UNIX time]	gx[rad/s]	gy[rad/s]	gz[rad/s]	ax[m/s^2]	ay[m/s^2]	az[m/s^2]	
+Timestamp[UNIX time] gx[rad/s]	gy[rad/s] gz[rad/s] ax[m/s^2] ay[m/s^2] az[m/s^2]	
 ```
 
 ### GPS Measurements Format
 
 ```
-Timestamp[UNIX time]	latitude[deg]	longitude[deg]	altitude[deg]
+Timestamp[UNIX time] latitude[deg] longitude[deg] altitude[deg]
 ```
 
 ### Photometric Information
 ```
-Timestamp[nanosec]	Exposure_time[nanosec]	  ISO     Lens_aperture   Focal   length  Focus_distance
+Timestamp[UNIX time] Exposure_time[nanosec] ISO Lens_aperture Focal length Focus_distance
 ```
 
 ### Image Files
 ```
-Timestamp[UNIX time]	<PATH_TO_IMAGE>
+Timestamp[UNIX time] <PATH_TO_IMAGE>
 ```
 
 ### ORB-SLAM3 Stereo Pose
 ```
-Timestamp[UNIX time]	r11	r12	r13	t1	r21	r22	r23	t2	r31	r32	r33	t3
+Timestamp[UNIX time] r11 r12 r13 t1 r21 r22 r23 t2 r31 r32 r33 t3
 ```
 
