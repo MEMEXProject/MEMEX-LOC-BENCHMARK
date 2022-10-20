@@ -116,7 +116,7 @@ Sequence_{lis:0>11}/
 ## About The Project
 
 This project is a result of performing Visual-SLAM and GPS fusion for correct the GPS location of images in [Mapillary](https://www.mapillary.com) server.
-![360-Benchmark](/figures/)
+![360-Benchmark](/figures/Slam_framework_memex.png)
 
 The framework for generating the multi-camera benchmarck is presented in the figure below. 
 
