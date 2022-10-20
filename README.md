@@ -44,7 +44,8 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 ### How to use:
-Anonymized imagery can be downloaded from Mapillary server using the official Mapillary-SDK. This project is an extension for downloading original imagery (full resolution (4000x3000)). Images were syncronized and geotagged offline using a SLAM-GPS fusion approach.  
+Anonymized imagery can be downloaded from Mapillary server using the official Mapillary-SDK. This project is an extension for downloading original imagery (full resolution (4000x3000)). A Mapillary access token must be created for each user. Modify line 11 in the main scripts for yours. Instructions for generating an access token are found [here](https://help.mapillary.com/hc/en-us/articles/360010234680-Accessing-imagery-and-data-through-the-Mapillary-API#h_e18c3f92-8b3c-4d26-8a1b-a880bde3a645)
+
 #### Download sequences from Json files
 ```bash
 python download_mapillary_sequence.py -i <sequence_id> -r <resolution> -o <output_path>
