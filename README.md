@@ -81,7 +81,8 @@ python download_mapillary_sequence.py -i <sequence_id> -r <resolution> -o <outpu
 
 This project is a result of performing Visual-SLAM and GPS fusion for correct the GPS location of images in [Mapillary](https://www.mapillary.com) server. 
 
+### Multicamera Acquisition System
 
 
 ## Acknowledgements
-
+This work is part of the ANR MEMEX project. [Website](https://memexproject.eu/en/)
