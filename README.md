@@ -117,10 +117,7 @@ Sequence_{lis:0>11}/
 
 This project is a result of performing Visual-SLAM and GPS fusion for correct the GPS location of images in [Mapillary](https://www.mapillary.com) server.
  
-<br />
-	<p align="center">
-		![GPS-SLAM](https://drive.google.com/file/d/1U4NZVSEAqY2QkKaQrwlvKXfI7RACfn3t/view?usp=sharing)
-	</p>
+![GPS-SLAM](/figures/gps_slam_filter.png)
 
 ### Multicamera Acquisition System
 
