@@ -116,10 +116,21 @@ Sequence_{lis:0>11}/
 ## About The Project
 
 This project is a result of performing Visual-SLAM and GPS fusion for correct the GPS location of images in [Mapillary](https://www.mapillary.com) server.
- 
+![360-Benchmark](/figures/)
+
+The framework for generating the multi-camera benchmarck is presented in the figure below. 
+
+SLAM poses are fused with the GPS measurements in the UTM coordinate system for prediction and correction of the GPS when it is partially available or absent. 
 ![GPS-SLAM](/figures/gps_slam_filter.png)
 
 ### Multicamera Acquisition System
+
+#### Devices
+- 8 Smartphones OnePlus9 (4000x3000 30fps)
+- 1 GoProMax (5.6K, 30fps)
+
+#### Software
+- Extended OpenCamera app for registering Inertial Sensors + GPS [source code](https://sourceforge.net/u/alnguyen/opencamera/ci/master/tree/)) (Configuration settings are found in Tools/MEMEX_conf.xml)
 
 
 ## Acknowledgements
