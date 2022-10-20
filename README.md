@@ -53,7 +53,43 @@ python download_mapillary_sequence.py -i <sequence_id> -r <resolution> -o <outpu
 #### Generate JSON files
 
 ## Directory Structure
-
+```
+Sequence_{lis:0>11}/
+|---> position_gps.txt
+|                                               | ...
+|---> B1/				        |---> T1/
+|     |						|     |
+|     |---> rgb/				|     |---> rgb/
+|     |     |---> {000001|XXXXXX}.jpg		|     |     |---> {000001|XXXXXX}.jpg
+|     |---> gps_B1.txt				|     |---> gps_T1.txt
+|     |---> imu_B1.txt				|     |---> imu_T1.txt
+|     |---> rgb_B1.txt				|     |---> rgb_T1.txt
+|						|
+|---> B2/				        |---> T2/
+|     |						|     |
+|     |---> rgb/				|     |---> rgb/
+|     |     |---> {000001|XXXXXX}.jpg		|     |     |---> {000001|XXXXXX}.jpg
+|     |---> gps_B2.txt				|     |---> gps_T2.txt
+|     |---> imu_B2.txt				|     |---> imu_T2.txt
+|     |---> rgb_B2.txt				|     |---> rgb_T2.txt
+|						|
+|---> B3/				        |---> T3/
+|     |						|     |
+|     |---> rgb/				|     |---> rgb/
+|     |     |---> {000001|XXXXXX}.jpg		|     |     |---> {000001|XXXXXX}.jpg
+|     |---> gps_B3.txt				|     |---> gps_T3.txt
+|     |---> imu_B3.txt				|     |---> imu_T3.txt
+|     |---> rgb_B3.txt				|     |---> rgb_T3.txt
+|						|
+|---> B4/				        |---> T4/
+|     |						|     |
+|     |---> rgb/				|     |---> rgb/
+|     |     |---> {000001|XXXXXX}.jpg		|     |     |---> {000001|XXXXXX}.jpg
+|     |---> gps_B4.txt				|     |---> gps_T4.txt
+|     |---> imu_B4.txt				|     |---> imu_T4.txt
+|     |---> rgb_B4.txt				|     |---> rgb_T4.txt
+| ...
+```
 
 ## List of Sequences
 ### Lisbon
