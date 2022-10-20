@@ -1,0 +1,2 @@
+Timestamp[nanosec],lat[deg],lon[deg],alt[deg]
+1666189666139, 43.6157759, 7.0672745, 174.59999084472656
