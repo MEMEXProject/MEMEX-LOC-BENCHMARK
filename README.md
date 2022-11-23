@@ -103,7 +103,8 @@ Sequence_{bcn:1-12}/
 |     |---> rgb.txt 
 | ...
 ```
-### Lisbon 1: 2 GoProMAX 
+### Lisbon 1: 2 GoProMAX
+```
 Sequence_{lis:1-6}/
 |<BEGIN>
 |
