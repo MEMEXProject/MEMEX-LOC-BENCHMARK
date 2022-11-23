@@ -155,9 +155,10 @@ SLAM poses are fused with the GPS measurements in the UTM coordinate system for 
 
 ### Multicamera Acquisition System
 
-#### Devices
-- 8 Smartphones OnePlus9 (4000x3000 30fps)
-- 1 GoProMax (5.6K, 30fps)
+#### Recording Devices
+- Smartphones OnePlus9 (4000x3000 30fps) Used in sequences: Barcelona(8 devices), Lisbon2 (8 devices), Paris1 (2 devices), Paris2 (2 devices)
+- GoProMax (5.6K, 30fps) Used in sequences: Lisbon1(2 devices), Barcelona (1 device)
+- Insta360 (5.6K, 30fps) Used in sequence: Lisbon2 (1 device)
 
 #### Software
 - Extended OpenCamera app for registering Inertial Sensors + GPS [source code](https://sourceforge.net/u/alnguyen/opencamera/ci/master/tree/)) (Configuration settings are found in Tools/MEMEX_conf.xml)
@@ -165,3 +166,7 @@ SLAM poses are fused with the GPS measurements in the UTM coordinate system for 
 
 ## Acknowledgements
 This work is part of the ANR MEMEX project. [Website](https://memexproject.eu/en/)
+
+## Contact
+Andrew Comport (WP Leader) comport@i3s.unice.fr
+Fernando Ireta (Postdoctoral Researcher) ireta@i3s.unice.fr
