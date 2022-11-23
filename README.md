@@ -44,7 +44,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 ### How to use:
-Anonymized imagery can be downloaded from Mapillary server using the official Mapillary-SDK. This project is an extension for downloading original imagery (full resolution (4000x3000)). A Mapillary access token must be created for each user. Modify line 11 in the main scripts for yours. Instructions for generating an access token are found [here](https://help.mapillary.com/hc/en-us/articles/360010234680-Accessing-imagery-and-data-through-the-Mapillary-API#h_e18c3f92-8b3c-4d26-8a1b-a880bde3a645)
+Anonymized imagery can be downloaded from Mapillary server using the official [Mapillary-SDK](https://github.com/mapillary/mapillary-python-sdk). This project is an extension of the Mapillary scripts for downloading non-resized imagery (full resolution (4000x3000)). A Mapillary access token must be created for each user. Modify line 11 in the main script with you own Token. Instructions for generating an access token are found [here](https://help.mapillary.com/hc/en-us/articles/360010234680-Accessing-imagery-and-data-through-the-Mapillary-API#h_e18c3f92-8b3c-4d26-8a1b-a880bde3a645). Detailed information of functions used in the script are found [here](https://mapillary.github.io/mapillary-python-sdk/docs/mapillary/mapillary.interface/).
 
 #### Download sequences from Json files
 ```bash
@@ -52,45 +52,73 @@ python download_mapillary_sequence.py -i <sequence_id> -r <resolution> -o <outpu
 ```
 
 #### Generate JSON files
+JSON files provided in this project allows to download synchronized imagery+imu+gps generated with the acquisition system developed by CNRS. However, the script can also be used to download any sequence from Mapillary within an specific area. The script can also generate the JSON file with sorted images according to the creation data tag in the EXIF. The list of sequences ID's (From Mapillary) and the GPS coordinates (west,south,east,north), must be provided. 
 
 ## Directory Structure
+### Barcelona: 8 smartphones OnePlus9 + GoProMax
 ```
-Sequence_{lis:0>11}/
+Sequence_{bcn:1-12}/
+|<BEGIN>
+|
 |---> position_gps.txt
 |                                               | ...
 |---> B1/				        |---> T1/
 |     |						|     |
 |     |---> rgb/				|     |---> rgb/
 |     |     |---> {000001|XXXXXX}.jpg		|     |     |---> {000001|XXXXXX}.jpg
-|     |---> gps_B1.txt				|     |---> gps_T1.txt
-|     |---> imu_B1.txt				|     |---> imu_T1.txt
-|     |---> rgb_B1.txt				|     |---> rgb_T1.txt
+|     |---> gps.txt				|     |---> gps.txt
+|     |---> imu.txt				|     |---> imu.txt
+|     |---> rgb.txt				|     |---> rgb.txt
 |						|
 |---> B2/				        |---> T2/
 |     |						|     |
 |     |---> rgb/				|     |---> rgb/
 |     |     |---> {000001|XXXXXX}.jpg		|     |     |---> {000001|XXXXXX}.jpg
-|     |---> gps_B2.txt				|     |---> gps_T2.txt
-|     |---> imu_B2.txt				|     |---> imu_T2.txt
-|     |---> rgb_B2.txt				|     |---> rgb_T2.txt
+|     |---> gps.txt				|     |---> gps.txt
+|     |---> imu.txt				|     |---> imu.txt
+|     |---> rgb.txt				|     |---> rgb.txt
 |						|
 |---> B3/				        |---> T3/
 |     |						|     |
 |     |---> rgb/				|     |---> rgb/
 |     |     |---> {000001|XXXXXX}.jpg		|     |     |---> {000001|XXXXXX}.jpg
-|     |---> gps_B3.txt				|     |---> gps_T3.txt
-|     |---> imu_B3.txt				|     |---> imu_T3.txt
-|     |---> rgb_B3.txt				|     |---> rgb_T3.txt
+|     |---> gps.txt				|     |---> gps.txt
+|     |---> imu.txt				|     |---> imu.txt
+|     |---> rgb.txt				|     |---> rgb.txt
 |						|
 |---> B4/				        |---> T4/
 |     |						|     |
 |     |---> rgb/				|     |---> rgb/
 |     |     |---> {000001|XXXXXX}.jpg		|     |     |---> {000001|XXXXXX}.jpg
-|     |---> gps_B4.txt				|     |---> gps_T4.txt
-|     |---> imu_B4.txt				|     |---> imu_T4.txt
-|     |---> rgb_B4.txt				|     |---> rgb_T4.txt
+|     |---> gps.txt				|     |---> gps.txt
+|     |---> imu.txt				|     |---> imu.txt
+|     |---> rgb.txt				|     |---> rgb.txt
+|                                               |<END>
+|---> GoProMax
+|     |
+|     |---> rgb/
+|     |     |---> {000001|XXXXXX}.jpg
+|     |---> gpx.gpx (GoPro Telemetry)
+|     |---> imu.txt (GoPro Telemetry)
+|     |---> rgb.txt 
 | ...
 ```
+### Lisbon 1: 2 GoProMAX 
+Sequence_{lis:1-6}/
+|<BEGIN>
+|
+|---> position_gps.txt
+|                                               | ...
+|---> GoProMax_B                                |---> GoProMax_T
+|     |                                         |     |
+|     |---> rgb/                                |     |---> rgb/                                
+|     |     |---> {000001|XXXXXX}.jpg           |     |     |---> {000001|XXXXXX}.jpg
+|     |---> gpx.gpx (GoPro Telemetry)           |     |---> gpx.gpx (GoPro Telemetry)
+|     |---> imu.txt (GoPro Telemetry)           |     |---> imu.txt (GoPro Telemetry)        
+|     |---> rgb.txt                             |     |---> rgb.txt 
+| ...                                           |<END>
+```
+
 
 ## List of Sequences
 ### Lisbon
