@@ -36,7 +36,7 @@
 To install the downloader script just clone this repository, create a new conda python3.8 environment and install the dependencies.  
 
 ```bash
-conda create --name py38
+conda create --name py38 python=3.8
 conda activate py38
 git clone git@gitlab.com:feriret/memex-benchmarking.git
 cd memex-benchmarking
