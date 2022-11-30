@@ -165,8 +165,9 @@ SLAM poses are fused with the GPS measurements in the UTM coordinate system for 
 
 
 ## Acknowledgements
-This work is part of the ANR MEMEX project. [Website](https://memexproject.eu/en/)
+This work is part H2020 MEMEX European Project. Grant agreement ID: 870743 [Website](https://memexproject.eu/en/)
 
 ## Contact
 Andrew Comport (WP Leader) comport@i3s.unice.fr
 Fernando Ireta (Postdoctoral Researcher) ireta@i3s.unice.fr
+Yacine Ahmine (Postdoctoral Researcher) ahmine@i3s.unice.fr
